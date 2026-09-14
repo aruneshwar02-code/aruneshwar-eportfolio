@@ -285,7 +285,7 @@ if page == "Home":
             )
 
     with col2:
-        photo_path = Path("assets/profile_photo.jpg")
+        photo_path = Path("assets/profile_photo.png")
         if photo_path.exists():
             st.image(str(photo_path), use_container_width=True)
         else:
